@@ -25,11 +25,11 @@
         lib = pkgs.lib;
         installC = true;
         installPython = true;
-        installJS = false;
-        installLatex = true;
+        installJS = true;
+        installLatex = false;
         useLLVM = true;
         llvmVer = "17";
-        pythonVer = "310";
+        pythonVer = "311";
         nodeVer = "20";
         enableVSCodeSetup = true;
       };
