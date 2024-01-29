@@ -13,3 +13,4 @@ check_exists() {
 questionnumber=$1
 
 python3 "$(check_exists "$questionnumber" "py")"
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --show-reachable=yes -s ./q
